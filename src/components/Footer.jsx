@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/FoodYummy.png";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
@@ -10,7 +9,6 @@ export default function Footer() {
     <div className="footer">
       <Section>
         <div className="brand container">
-          <img src={logo} alt="" />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
             repudiandae.
@@ -44,15 +42,15 @@ export default function Footer() {
           <div className="title">
             <h3>Contact Us</h3>
           </div>
-          <p>+91 1231231231</p>
-          <p>foodyummy@gmail.com</p>
-          <p>@foodyummy</p>
-          <p>412 Street, Ground Floor, India</p>
+          <p>+91 891231221</p>
+          <p>sonudutta@gmail.com</p>
+          <p>@sonudutta</p>
+          <p>407 Abc, Pune, India</p>
         </div>
       </Section>
       <LowerFooter className="lower__footer">
         <h2>
-          Copyright &copy; 2021 <span>Food Yummy</span>
+          Copyright &copy; 2022 <span>Sonu Dutta</span>
         </h2>
       </LowerFooter>
     </div>
